@@ -9,7 +9,7 @@ O projeto consiste em um servidor feito puramente com Node JS para testar a noss
 ## Como Configurar o Ambiente:
 - Certifique-se de ter o Node.js instalado. Verifique com:
 
-bash node -v
+```node -v```
 
 - A versão deve ser 14 ou superior.
 - Clone ou baixe este repositório.
@@ -18,7 +18,7 @@ bash node -v
 ## Como executar o projeto:
 - Basta abrir o terminal e executar o seguinte comando:
 
-bash node app.js
+```node app.js```
 
 ## Solução do Problema:
 Para garantir que todas as tarefas fossem salvas, foi utilizado o File System (fs) do Node JS para salvar cada tarefa dentro do arquivo "tasks.js". Para buscar por tarefas pelo ID, foi necessário 
